@@ -6,4 +6,5 @@ const usuarioSchema = new Schema({
   senha: { type: String, required: true }, 
 });
 
-export const Usuario = model("usuarios", usuarioSchema);
+const Usuarios = model("Usuarios", usuarioSchema);
+export default Usuarios

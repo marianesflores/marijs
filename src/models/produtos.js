@@ -6,4 +6,5 @@ const produtoSchema = new Schema({
   categoria: { type: Schema.Types.ObjectId, ref: "categorias", required: true }
 });
 
-export const Produto = model("produtos", produtoSchema);
+const Produtos = model("Produtos", produtoSchema);
+export default Produtos

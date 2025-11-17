@@ -4,4 +4,5 @@ const categoriaSchema = new Schema({
   nome: { type: String, required: true },
 });
 
-export const Categoria = model("categorias", categoriaSchema);
+const Categorias = model("Categorias", categoriaSchema);
+export default Categorias
